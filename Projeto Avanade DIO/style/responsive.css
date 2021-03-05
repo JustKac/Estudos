@@ -1,0 +1,68 @@
+@media screen and (max-width: 730px){
+    /*CABEÇALHO*/
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*CONTEÚDO*/
+    .destaque{
+        display: flex;
+        align-items: center;
+    }
+    
+    .destaque .box_destaque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destaque .titulo_destaque{
+        margin: 0;
+        padding: 0;
+        font-size: 37px;
+    }
+    .destaque .frase_destaque {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    /*RODAPÉ*/
+    footer{
+        font-size: 10px;
+    }
+
+    .aluno .redes_dev{
+        font-size: 14px;
+    }
+
+    .dio .avanade a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    /*CONTEÚDO*/
+    .destaque .box_destaque{
+        height: 300px;
+        width: 450px;
+    }
+
+    .destaque .titulo_destaque{
+        font-size: 30px;
+    }
+
+    /*RODAPÉ*/
+    footer{
+        font-size: 10px;
+    }
+
+    .aluno .redes_dev{
+        font-size: 12px;
+    }
+
+    .dio .avanade a{
+        font-size: 12px;
+    }
+}
