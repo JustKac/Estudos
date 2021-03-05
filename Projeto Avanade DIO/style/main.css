@@ -1,0 +1,173 @@
+:root {
+    --azul: rgb(17, 155, 197);
+}
+
+/*Reset da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+body {
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--azul);
+}
+
+header .container{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .site_logo {
+    color: var(--azul);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 30px;    
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    /*hover: Aplica o estilo associado quando o cursor(mouse pointer) passa sobre um elemento*/
+    color: var(--azul);
+}
+
+footer{
+    background-color: var(--azul);
+    color: white;
+}
+
+
+/*CONTEÚDOS DA PÁGINA*/
+
+/* Conteúdo destaque */
+.destaque{
+    background: url('/ProjetosHTML/Projeto\ Avanade\ DIO/img/destaque.jpg');
+    height: 400px;
+    background-size: cover;
+    color: black;
+
+    /* Box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.destaque .box_destaque{
+    height: 300px;
+    width: 540px;
+    background: linear-gradient(rgba(17,155,197,.50),rgba(17,155,197,.50)100%);
+    border-radius: 2%;
+}
+
+.destaque .frase_destaque {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    width: 80%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque .titulo_destaque{
+    padding-top: 15px;
+    font-size: 37px;
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.destaque .botao{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border: none;
+    color: var(--azul);
+    background: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255)100%);
+    padding: 10px 25px;
+    font-size: 12px;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+
+/*Catálogos*/
+.artigos{
+    margin: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.box_arq{
+    height: 300px;
+    width: 200px;
+    display: block;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.box_obras{
+    border-radius: 5%;
+    margin: 10px;
+    width: 300%;
+    height: 150px;
+}
+
+/*Rodapé*/
+footer{
+    padding: 10px;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.dio{
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+}
+
+.aluno .redes_dev{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.aluno p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .aluno p a:hover{
+    color: black;
+}
+
+.dio .avanade a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.dio .avanade a:hover{
+    color: black;
+}
