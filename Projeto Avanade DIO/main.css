@@ -52,7 +52,7 @@ footer{
 
 /* Conteúdo destaque */
 .destaque{
-    background: url('/ProjetosHTML/Projeto\ Avanade\ DIO/img/destaque.jpg');
+    background: url('img/destaque.jpg');
     height: 400px;
     background-size: cover;
     color: black;
