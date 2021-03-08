@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="js/main.js"></script>
+        <title>QT ARQUITETURA</title>
+
+        <!--Responsividade-->
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <!--owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h2 class="site_logo">QT ARQUITETURA</h2>
+
+                <!--Botões de navegação do topo-->
+                <nav>
+                    <a href="index.html">Início</a>
+                    <a href="https://www.archdaily.com.br/br/noticias-de-arquitetura" target="blank">Notícias</a>
+                    <a href="https://super.abril.com.br/mundo-estranho/top-10-os-arquitetos-mais-importantes-da-historia/" target="blank">Top Arquitetos</a>
+                    <a href="https://www.vivadecora.com.br/pro/arquitetura/obras-de-arquitetura-famosas/" target="blank">Top Obras</a>
+                    <a href="https://github.com/JustKac/Estudos/tree/master/Projeto%20Avanade%20DIO/Agradecimentos" target="blank">Agradecimentos</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="destaque">  <!-- Container no filme em destaque-->
+                <div class="container">
+                    <div class="box_destaque">
+                        <!--Título em destaque-->
+                        <h3 class="titulo_destaque">QUASE TUDO ARQUITETURA</h3>
+                        <!--Frase em destaque-->
+                        <p class="frase_destaque">"A arquitetura é o jogo sábio, correto e magnífico dos volumes dispostos sob a luz. 
+                            Eu prefiro desenhar do que falar. O desenho é mais rápido, e deixa menos espaço para mentiras. 
+                            Cem vezes pensei que Nova York é uma catástrofe, cinquenta vezes, que é uma bonita catástrofe. 
+                            A casa é uma máquina de morar." (Le Corbusier)
+                        </p>
+                        
+                        <!--Botões "WIKIPEDIA" e "ARCHDAILY"-->
+                        <div>  
+                            <button role="button" class="botao" onclick="openwiki()">
+                                <i class="fas fa-info-circle"></i>
+                                WIKIPEDIA
+                            </button>
+                            <button role="button" class="botao" onclick="openarchdaily()">
+                                <i class="fas fa-info-circle"></i>
+                                ARCHDAILY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--OWL Carousel-->
+            <div class="artigos">
+                
+                <h3>Principais Arquitetos</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item" >
+                        <a href="https://pt.wikipedia.org/wiki/Le_Corbusier" target="_blank"><img class="box_arq" src="img/arquitetos/mini1.jpg" alt="" srcset=""></a>
+                    </div>
+                   
+                    <div class="item">
+                        <a href=" https://pt.wikipedia.org/wiki/Antoni_Gaud%C3%AD" target="_blank"><img class="box_arq" src="img/arquitetos/mini2.jpg" alt="" srcset=""></a>   
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Ludwig_Mies_van_der_Rohe" target="_blank"><img class="box_arq" src="img/arquitetos/mini3.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Ieoh_Ming_Pei" target="_blank"><img class="box_arq" src="img/arquitetos/mini4.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Frank_Gehry" target="_blank"><img class="box_arq" src="img/arquitetos/mini5.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Frank_Lloyd_Wright" target="_blank"><img class="box_arq" src="img/arquitetos/mini6.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Zaha_Hadid" target="_blank"><img class="box_arq" src="img/arquitetos/mini7.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Renzo_Piano" target="_blank"><img class="box_arq" src="img/arquitetos/mini8.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Norman_Foster" target="_blank"><img class="box_arq" src="img/arquitetos/mini9.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                    <div class="item">
+                        <a href="https://pt.wikipedia.org/wiki/Oscar_Niemeyer" target="_blank"><img class="box_arq" src="img/arquitetos/mini10.jpg" alt="" srcset=""></a>   
+                    </div>
+
+                </div>
+
+                <h3>Principais Obras</h3>
+                <div class="owl-carousel owl-theme">
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/798207/classicos-da-arquitetura-museu-guggenheim-frank-lloyd-wright" target="blank"><img class="box_obras" src="img/Obras/mini1.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/786175/classicos-da-arquitetura-museu-guggenheim-de-bilbao-gehry-partners" target="blank"><img class="box_obras" src="img/Obras/mini2.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/800964/classicos-da-arquitetura-terminal-da-twa-eero-saarinen" target="blank"><img class="box_obras" src="img/Obras/mini3.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/784303/classicos-da-arquitetura-pera-de-sydney-jorn-utzon" target="blank"><img class="box_obras" src="img/Obras/mini4.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/873845/classicos-da-arquitetura-templo-de-lotus-fariborz-sahba" target="blank"><img class="box_obras" src="img/Obras/mini5.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/01-41987/classicos-da-arquitetura-centro-georges-pompidou-renzo-piano-mais-richard-rogers" target="blank"><img class="box_obras" src="img/Obras/mini6.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/890529/the-shard-renzo-piano-building-workshop" target="blank"><img class="box_obras" src="img/Obras/mini7.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com/84524/ad-classics-villa-savoye-le-corbusier" target="blank"><img class="box_obras" src="img/Obras/mini8.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com/60259/ad-classics-the-glass-house-philip-johnson" target="blank"><img class="box_obras" src="img/Obras/mini9.jpg" alt="" srcset=""></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="https://www.archdaily.com.br/br/01-53156/classicos-da-arquitetura-casa-da-cascata-frank-lloyd-wright" target="blank"><img class="box_obras" src="img/Obras/mini10.jpg" alt="" srcset=""></a>
+                    </div>
+        
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="dio">
+                <div class="aluno">
+                    <p class="redes_dev">Redes do DEV</p>
+                    <p><a href="https://www.linkedin.com/in/caiohclins/" target="blank">LinkedIn</a></p>
+                    <p><a href="https://github.com/JustKac/" target="blank">GitHub</a></p>
+                </div>
+                <p class="avanade"><a href="https://web.digitalinnovation.one/track/avanade-angular-developer" target="blank"> DIO - Bootcamp Avanade Angular Developer</a></p>
+            </div>
+        </footer>
+
+        <!--Scripts-->
+        <script src="https://kit.fontawesome.com/aeccc6be63.js" crossorigin="anonymous"></script>  <!--Script de link com o site Font Awesome-->
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.js"></script>
+        <script src="js/owl/setup.js"></script>
+    </body>
+</html>
