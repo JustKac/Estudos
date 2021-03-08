@@ -3,9 +3,9 @@
 ### Informações Pessoais
 
 * Nome: Caio Henrique Cordeiro Lins
-* Idade: 25 Anos
+* Idade: 26 Anos
 * Localidade: Paulista - PE, Brasil
-* Cursando Licenciatura em Computação na UFRPE
+* Cursando Licenciatura em Computação na UFRPE (3° Período)
 * LinkedIn: www.linkedin.com/in/caiohclins
 
 ### Sobre o repositório
@@ -14,5 +14,5 @@
 Aqui você vai encontrar:
 
 * Anotações sobre o que venho estudando, tanto na universidade quanto em cursos.
-* Arquivos usádos para testes.
+* Arquivos usados para testes.
 * Projetos (Versões antigas e atualizadas) relacionados ao que venho estudando.
