@@ -1,0 +1,32 @@
+@media (max-width: 1300px){
+    .instagram-phone{
+        width: 60%;
+    }
+
+    .instagram-continue{
+        width: 60%;
+    }
+}
+
+@media (max-width: 956px){
+    body{
+        background-color: #fff;
+    }
+
+    .instagram-wrapper{
+        width: 70%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+
+}
